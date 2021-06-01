@@ -1,0 +1,163 @@
+@font-face {
+    font-family: poppins;
+    src: url('../fonts/poppins.ttf')
+}
+
+@font-face {
+    font-family: mpoppins;
+    src: url('../fonts/Poppins-Medium.ttf')
+}
+
+body {
+    margin: 0;
+    font-size: 0.8em;
+    font-family: 'poppins';
+}
+
+a {
+    color: white;
+}
+
+header {
+    margin: 0;
+    color: white;
+    background-color: rgb(0, 108, 173);
+}
+
+nav {
+    margin: 0 0 0 2vh;
+    display: flex;
+}
+
+nav h1 {
+    font-family: 'mpoppins';
+    font-size: 1.2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 2vh;
+}
+
+#name {
+    padding: 2vh 50vh;
+    height:25vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+#name .title {
+    align-self: baseline;
+    font-family: 'mpoppins';
+    text-align: center;
+    line-height: 2em;
+}
+
+#name .title > p {
+    font-size: 1.2em;
+}
+
+#job {
+    color: rgb(0, 108, 173);
+}
+
+#name img {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 20vh;
+    box-shadow: 0.4vh 0.4vh 1vh #aaa;
+}
+
+#presentation {
+    padding: 2vh 50vh;
+    background-color: rgb(0, 108, 173);
+    color: white;
+}
+
+#skill {
+    
+    padding: 2vh 50vh;
+}
+
+#skill h3 {
+    color: rgb(0, 108, 173);
+}
+
+#skill ul {
+    line-height: 2.5em;
+    list-style: none;
+}
+
+#techlabs {
+    font-weight: bolder;
+}
+
+#techlabs::after {
+    float:right;
+    content: "2018";
+}
+
+#konexio {
+    font-weight: bold;
+}
+
+#konexio::after {
+    float: right;
+    content: "2016 — 2018"
+}
+
+li + ul {
+    margin-left: -6vh;
+}
+
+#formations {
+    padding: 2vh 50vh;
+    height: 20vh;
+    color: white;
+    background-color: rgb(0, 108, 173);
+}
+
+#formations ul {
+    list-style: none;
+}
+
+#license::after {
+    float: right;
+    content: "2015 — 2018";
+}
+
+#bac::after {
+    float: right;
+    content: "2015";
+}
+
+#interests {
+    padding: 2vh 50vh;
+}
+
+#interests h3 {
+    height: 10vh;
+    color: rgb(0, 108, 173);
+}
+
+footer {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 108, 173);
+    padding: 2vh 1vh;
+}
+
+footer ul {
+    list-style: none;
+    margin-right: 30vh;
+}
