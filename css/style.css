@@ -165,3 +165,21 @@ footer ul {
 body > footer > div:nth-child(2) a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 1400px) {
+    #profile, #presentation, #skill, #interests, #formations {
+        padding: 1vh 20vh;
+    }
+} 
+
+@media screen and (max-width: 800px) {
+    #profile, #presentation, #skill, #interests, #formations {
+        padding: 1vh 10vh;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #profile, #presentation, #skill, #interests, #formations {
+        padding: 1vh 3vh;
+    }
+}
