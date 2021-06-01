@@ -48,7 +48,7 @@ nav ul li {
     margin-right: 2vh;
 }
 
-#name {
+#profile {
     padding: 2vh 50vh;
     height:25vh;
     display: flex;
@@ -56,14 +56,14 @@ nav ul li {
     justify-content:space-evenly;
 }
 
-#name .title {
+#profile .title {
     align-self: baseline;
     font-family: 'mpoppins';
     text-align: center;
     line-height: 2em;
 }
 
-#name .title > p {
+#profile .title > p {
     font-size: 1.2em;
 }
 
@@ -71,7 +71,7 @@ nav ul li {
     color: rgb(0, 108, 173);
 }
 
-#name img {
+#profile img {
     width: 25vh;
     height: 25vh;
     border-radius: 20vh;
@@ -160,4 +160,8 @@ footer {
 footer ul {
     list-style: none;
     margin-right: 30vh;
+}
+
+body > footer > div:nth-child(2) a {
+    text-decoration: none;
 }
