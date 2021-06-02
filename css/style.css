@@ -72,9 +72,9 @@ nav ul li {
 }
 
 #profile img {
-    width: 25vh;
-    height: 25vh;
-    border-radius: 20vh;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 15vh;
     box-shadow: 0.4vh 0.4vh 1vh #aaa;
 }
 
@@ -85,7 +85,6 @@ nav ul li {
 }
 
 #skill {
-    
     padding: 2vh 50vh;
 }
 
@@ -98,31 +97,40 @@ nav ul li {
     list-style: none;
 }
 
-#techlabs {
+#audika {
     font-weight: bolder;
 }
 
-#techlabs::after {
+#audika::after {
     float:right;
-    content: "2018";
+    content: "2014 — 2020";
 }
 
-#konexio {
+#boulanger {
     font-weight: bold;
 }
 
-#konexio::after {
+#boulanger::after {
     float: right;
-    content: "2016 — 2018"
+    content: "2011 — 2013"
+}
+
+#saturn {
+    font-weight: bold;
+}
+
+#saturn::after {
+    float: right;
+    content: "2010 — 2011"
 }
 
 li + ul {
-    margin-left: -6vh;
+    margin-left: -4vh;
 }
 
 #formations {
     padding: 2vh 50vh;
-    height: 20vh;
+    min-height: 15vh;
     color: white;
     background-color: rgb(0, 108, 173);
 }
@@ -143,10 +151,10 @@ li + ul {
 
 #interests {
     padding: 2vh 50vh;
+    min-height: 15vh;
 }
 
 #interests h3 {
-    height: 10vh;
     color: rgb(0, 108, 173);
 }
 
@@ -157,9 +165,12 @@ footer {
     padding: 2vh 1vh;
 }
 
+footer div {
+    width: 30vh;
+}
+
 footer ul {
     list-style: none;
-    margin-right: 30vh;
 }
 
 body > footer > div:nth-child(2) a {
@@ -169,6 +180,12 @@ body > footer > div:nth-child(2) a {
 @media screen and (max-width: 1400px) {
     #profile, #presentation, #skill, #interests, #formations {
         padding: 1vh 20vh;
+    }
+
+    #profile img {
+        width: 15vh;
+        height: 15vh;
+        border-radius: 10vh;
     }
 } 
 
