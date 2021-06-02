@@ -57,7 +57,6 @@ nav ul li {
 }
 
 #profile .title {
-    align-self: baseline;
     font-family: 'mpoppins';
     text-align: center;
     line-height: 2em;
@@ -76,6 +75,13 @@ nav ul li {
     height: 20vh;
     border-radius: 15vh;
     box-shadow: 0.4vh 0.4vh 1vh #aaa;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+#profile img:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
 }
 
 #presentation {
@@ -125,7 +131,11 @@ nav ul li {
 }
 
 li + ul {
-    margin-left: -4vh;
+    margin-left: -4.2vh;
+}
+
+li + ul li {
+    margin-bottom: 0.8vh;
 }
 
 #formations {
@@ -193,10 +203,26 @@ body > footer > div:nth-child(2) a {
     #profile, #presentation, #skill, #interests, #formations {
         padding: 1vh 10vh;
     }
+
+    #profile img {
+        filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
 }
 
 @media screen and (max-width: 590px) {
     #profile, #presentation, #skill, #interests, #formations {
         padding: 1vh 3vh;
+    }
+}
+
+@media screen and (max-width: 406px) {
+    nav ul {
+        margin-left: -9vh;
+        align-self: baseline;
+    }
+
+    #skill ul, #formations ul {
+        margin-left: -5vh;
     }
 }
